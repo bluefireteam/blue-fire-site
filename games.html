@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+		<meta name="description" content="Blue Fire Website" />
+
+		<!-- iOS meta tags & icons -->
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="apple-mobile-web-app-title" content="Blue Fire Website" />
+		<link rel="apple-touch-icon" href="assets/icons/Icon-192.png" />
+
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" href="assets/icons/favicon.png" />
+
+		<title>Blue Fire</title>
+		<base href="/" />
+		<link rel="manifest" href="manifest.json" />
+
+		<meta
+			data-react-helmet="true"
+			name="description"
+			content="OSS organization behind Flame, Audioplayers, and more"
+		/>
+		<meta data-react-helmet="true" property="og:title" content="Blue Fire" />
+		<meta
+			data-react-helmet="true"
+			property="og:description"
+			content="OSS organization behind Flame, Audioplayers, and more"
+		/>
+		<meta data-react-helmet="true" property="og:type" content="website" />
+		<meta data-react-helmet="true" name="twitter:card" content="summary" />
+		<meta data-react-helmet="true" name="twitter:title" content="Blue Fire" />
+		<meta
+			data-react-helmet="true"
+			name="twitter:description"
+			content="OSS organization behind Flame, Audioplayers, and more"
+		/>
+
+		<link rel="stylesheet" href="/assets/css/main.css" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100;300;400;600;900&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+
+	<body class="bg-black h-screen flex flex-col">
+		<div class="container mx-auto flex-1 flex flex-col">
+			<nav class="h-16 md:h-32 flex items-center justify-between">
+				<div class="flex-initial items-center collapse md:visible">
+					<a href="/">
+						<img src="assets/images/blue-fire-icon-logo.png" width="200" />
+					</a>
+				</div>
+				<div
+					class="flex flex-wrap items-center justify-center justify-items-center text-slate-50 font-extrabold space-x-8"
+				>
+					<a href="/projects">Projects</a>
+					<a href="/games">Games</a>
+					<a href="https://www.patreon.com/bluefireoss">Patreon</a>
+					<a href="https://github.com/bluefireteam">GitHub</a>
+					<a href="https://discord.gg/pxrBmy4">Discord</a>
+				</div>
+			</nav>
+			<main class="flex-1">
+				<div class="grid place-items-center text-white">
+					<p class="text-2xl font-extrabold">Our Games</p>
+					<p>
+						As the maintainers and guardians of our beloved
+						<a href="https://flame-engine.org">Flame Engine</a>, the Blue Fire
+						team has dabbled in making games using Flame in the past.
+					</p>
+					<p>
+						These are some of the games we've made, all in different levels of
+						completeness and polish:
+					</p>
+
+					<h2>Main Games</h2>
+					<ul>
+						<li class="flex" style="gap: 8px">
+							<img src="/games/gr/icon.png" width="32" height="32" />
+							<a href="/games/gr"
+								>Gravity Runner, reverse gravity and avoid obstacles in this
+								challenging endless runner</a
+							>
+						</li>
+						<li class="flex" style="gap: 8px">
+							<img src="/games/bgug/icon.png" width="32" height="32" />
+							<a href="/games/bgug"
+								>BGUG, Break Guns Using Gems, a fun endless runner with a
+								twist</a
+							>
+						</li>
+						<li class="flex" style="gap: 8px">
+							<img src="/games/bob/icon.png" width="32" height="32" />
+							<a href="/games/bob"
+								>Bob Builder, an addictive casual game to pass the time</a
+							>
+						</li>
+						<li class="flex" style="gap: 8px">
+							<img src="/games/tales/icon.png" width="32" height="32" />
+							<a href="/games/tales"
+								>Tales of a Lost Mine, an unfinished Metriodvania
+								side-scroller</a
+							>
+						</li>
+						<li>
+							<a href="https://github.com/bluefireteam/snake-chef">Snake Chef</a
+							>, classic Snake meets Overcooked
+						</li>
+					</ul>
+
+					<h2>Game Jams</h2>
+					<p>
+						These games were entries to various Game Jams that we participated:
+					</p>
+					<ul>
+						<li>
+							<a href="https://github.com/bluefireteam/heeve">Heeve</a>, an RTS
+							where you play the aliens - our entry for GitHub's GameOff 2021
+						</li>
+						<li>
+							<a href="https://github.com/bluefireteam/ghost-vs-wonderland"
+								>Ghost vs Wonderland</a
+							>, fight your way through Wonderland - our unofficial entry for
+							the Flame Game Jam
+						</li>
+					</ul>
+				</div>
+			</main>
+		</div>
+	</body>
+</html>

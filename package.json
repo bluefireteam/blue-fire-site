@@ -1,0 +1,22 @@
+{
+  "name": "blue-fire-site",
+  "version": "0.0.0",
+  "description": "Blue Fire's Website",
+  "main": "postcss.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluefireteam/blue-fire-site.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bluefireteam/blue-fire-site/issues"
+  },
+  "homepage": "https://github.com/bluefireteam/blue-fire-site#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "cssnano": "^5.1.14",
+    "postcss": "^8.4.20",
+    "tailwindcss": "^3.2.4"
+  }
+}
